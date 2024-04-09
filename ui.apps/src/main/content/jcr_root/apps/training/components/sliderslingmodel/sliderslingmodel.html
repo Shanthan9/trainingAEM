@@ -1,0 +1,19 @@
+
+
+Slider Edit Component
+
+<sly data-sly-use.props="com.training.learning.core.models.SliderModel"></sly>
+
+<h1>Iteration Using List</h1>
+
+<ul data-sly-list="${props.sliderProps1}">
+  <li>${item.title1}</li>
+  <li>${item.details1}</li>
+</ul>
+
+<h1>Iteration Using Repeat</h1>
+
+<ul data-sly-repeat="${props.sliderProps2}">
+  <li>${item.title2}</li>
+  <li>${item.details2}</li>
+</ul>
